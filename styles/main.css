@@ -23,85 +23,87 @@ body {
 
 .side-bar-container {
     float: left;
-    background: lightcoral;
-    border: 2px solid palevioletred;
+    background: rgb(236, 17, 17);
+    border: 4px solid black;
     padding: 1em;
 }
 
-.profile-image-container {
-    border: 2px solid gray;
-    background: yellow;
-    text-align: center;
-}
+    .profile-image-container {
+        border: 4px solid gray;
+        background: black;
+        color: white;
+        text-align: center;
+    }
 
-.profile-image {
-    padding: 1em;
-    margin-bottom: 1em;
-}
+        .profile-image {
+            padding: 1em;
+            margin-bottom: 1em;
+        }
 
-.name {
-    font-size: 2em;
-    font-weight: bold;
-    margin: -1em 0 0 0;
-}
+        .name {
+            font-size: 2em;
+            font-weight: bold;
+            margin: -1em 0 0 0;
+        }
 
-.nav-container {
-    text-align: center;
-}
+        .nav-container {
+            text-align: center;
+        }
 
-.nav-tab {
-    padding: 1em;
-    font-size: 1.5em;
-    border-bottom: 1px solid gray;
-    cursor: pointer;
-}
+            .nav-tab {
+                padding: 1em;
+                font-size: 1.5em;
+                border-bottom: 2px solid black;
+                cursor: pointer;
+            }
 
-.nav-tab-1 {
-    background: rgba(150, 150, 150, 0.5);
-}
+            .nav-tab-1 {
+                background: rgba(150, 150, 150, 0.5);
+                margin-top: 1em;
+            }
 
-.nav-tab:hover {
-    background: rgba(150, 150, 150, 0.5);
-}
+                .nav-tab:hover {
+                    background: rgba(150, 150, 150, 0.5);
+                }
 
-.nav-1 {
+.main-1 {
     display: block;
     padding: 1em;
     text-align: center;
 }
 
-.nav-2 {
+    .rugby-image {
+       max-width: 90%;
+    }
+
+.main-2 {
     display: none;
     padding: 1em;
     text-align: center;
 }
 
-.nav-3 {
+    .pet-image-container {
+        margin: 1em auto;
+    }
+
+        .pet-image-container div {
+           position: relative;
+        }
+
+            .pet-image {
+               max-width: 100%;
+            }
+
+.main-3 {
     display: none;
     padding: 1em;
     text-align: center;
-}
-
-.rugby-image {
-    max-width: 90%;
-}
-.pet-image-container {
-    margin: 1em auto;
-}
-
-.pet-image-container div {
-    position: relative;
-}
-
-.pet-image {
-    max-width: 100%;
 }
 
 footer {
     position: relative;
     background: black;
     top: 1em;
-    
 }
 
 /* column width for mobile devices */
@@ -127,10 +129,12 @@ footer {
     .header {
         float: right;
     }
+
     .side-bar-container {
         margin-top: 1em;
         max-width: 40%;
     }
+
     .pet-images {
         max-width: 100%;
         z-index: 5;
